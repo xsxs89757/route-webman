@@ -10,6 +10,8 @@ class Route extends WebmanRoute {
      */
     protected static $_rules = [];
 
+    protected static $_hasRoute;
+
     /**
      * @param $methods
      * @param $path
